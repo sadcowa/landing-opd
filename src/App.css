@@ -1,5 +1,8 @@
 .App {
-  text-align: center;
+  background-color: #000000;
+  color:white;
+ 
+  min-height: 100vh;
 }
 
 .App-logo {
@@ -14,16 +17,45 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #000000;
   min-height: 100vh;
+  padding-top: 20px; 
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.button-container {
+  display: flex;
+  gap: 60px;
+}
+.btn {
+  padding: 0; 
+  width: 280px;
+  height: 60px;
+  background-color:  transparent; 
+  border: none; 
+  border-radius: 15px;
+  cursor: pointer; 
+  color: white;
+  font-family: 'SemiBold', sans-serif;
+  font-size: 30px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+.feedback-btn {
+  background-color: #7FA632;
+  color: white;
+}
 
+.btn:hover {
+  color: #7FA632;
+}
+.feedback-btn:hover {
+  background-color: #ffffff;
+  color:#7FA632;
+}
 .App-link {
   color: #61dafb;
 }
