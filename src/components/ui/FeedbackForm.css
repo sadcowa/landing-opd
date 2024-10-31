@@ -1,0 +1,92 @@
+h1 {
+    text-align: center; 
+    font-size: 96px; 
+    margin-bottom: 20px; 
+}
+
+.green-text {
+    color: #7FA632; 
+}
+
+.white-text {
+    color: white; 
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    color: #7FA632;
+    margin-bottom: 5px;
+    font-size: 26px; 
+}
+
+.input, .textarea {
+    border-radius: 15px;
+    box-sizing: border-box;
+    font-size: 24px; 
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#fio {
+    width: 1340px;
+    height: 48px; 
+    margin-bottom: 40px;
+}
+
+#group, #email {
+    width: 650px;
+    height: 48px; 
+}
+
+.textarea {
+    width: 650px; 
+    height: 190px; 
+    resize: none; 
+}
+
+.input:focus, .textarea:focus {
+    outline: none; 
+}
+
+.button-container {
+    display: flex; 
+    justify-content: center; 
+    margin-top: 46px; 
+}
+
+.submit-button {
+    width: 248px; 
+    height: 60px; 
+    background-color: #7FA632; 
+    color:#fff;
+    border: none; 
+    border-radius: 15px; 
+    cursor: pointer; 
+    font-size: 24px; 
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.submit-button:hover {
+    background-color: #fff;
+    color: #7FA632;
+}
+
+.form-flex {
+    display: flex; 
+    gap: 40px; 
+}
+
+.form-flex-column {
+    display: flex; 
+    flex-direction: column; 
+    gap: 40px; 
+}
+
+.form-group:last-child {
+    margin-bottom: 46px; 
+}
