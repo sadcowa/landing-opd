@@ -1,0 +1,24 @@
+/* Header.css */
+.header {
+    background-color:black;
+    display: flex; /* Используем flexbox для размещения элементов */
+    align-items: center; /* Центрируем по вертикали */
+    background-color: #000000; /* Цвет фона хедера */
+    border-bottom: 2.5px solid #7FA632;
+    height: 144px;
+    width: 100%;
+}
+
+.logo-container {
+    margin-right: 75px; /* Отступ логотипа */
+    margin-left: 29px;
+    align-items: flex-start;
+
+}
+
+.navigation {
+    display: flex; /* Горизонтальное меню */
+    gap: 100px; /* Отступы между кнопками */
+  
+}
+

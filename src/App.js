@@ -1,16 +1,18 @@
 //app.js
 import React from 'react';
-import {FeedbackButton, HeaderButton} from './ui-kit';
+import Header from './components/Header';
+import Opd from './components/Opd';
+import Footer from './components/Footer';
+
 
 function App() {
     return (
-        <div style={{ padding: '20px' }}>
-            <HeaderButton text="О курсе" />
-            <HeaderButton text="Наши проекты" />
-            <HeaderButton text="Наставники" />
-            <FeedbackButton/>
-            <HeaderButton text="Курс ОПД ТУСУР" href="https://vk.com/opd_tusur"/>
-        </div>
+        <div style={{ padding: '0px' }}>
+        <Header />
+        <Opd/>
+        {/* Другие компоненты вашего приложения */}
+        <Footer />
+    </div>
     );
 }
 
