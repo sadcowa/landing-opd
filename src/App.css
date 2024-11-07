@@ -7,35 +7,20 @@ body {
   display: flex; 
   justify-content: center; 
   align-items: center; 
-  height: 100vh; 
+  min-height: 400vh; 
 }
 
 .app-container {
   text-align: left; 
+  min-height: 100vh; 
+  padding: 40px;
+  background-color: #000;
+  overflow-y: auto; 
+  margin: 0 auto; 
 }
 
 html, body {
   height: 100%;
   margin: 0;
   padding: 0;
-  overflow-y: auto;
-}
-
-.app-container {
-  min-height: 100vh; 
-  padding: 40px;
-  background-color: #000;
-}
-
-html, body {
-  height: 130%;
-  margin: 0;
-  padding: 0;
-  overflow-y: auto; 
-}
-
-.app-container {
-  min-height: 100vh; 
-  padding: 40px;
-  background-color: #000;
 }
