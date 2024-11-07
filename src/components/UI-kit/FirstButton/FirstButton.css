@@ -1,4 +1,4 @@
-.feedback-button {
+.first-button {
     background-color: #7FA632; 
     color: white;
     padding: 8.5px 26px;
@@ -8,13 +8,14 @@
     transition: all 0.5s ease; 
     font-family: 'Montserrat', sans-serif;
     font-size: 28px;
-    margin-left: 100px;
-    margin-top: -16px;
+    margin-left: 30px;
+    margin-top: -7px;
     font-weight: 600;
+    margin-right: -3px;
 
 }
 
-.feedback-button:hover {
+.first-button:hover {
     background-color: white; 
     color: #7FA632;
 }

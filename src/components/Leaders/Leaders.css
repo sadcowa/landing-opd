@@ -1,0 +1,50 @@
+.course-leaders {
+    text-align: center; 
+    margin: 123px 0px;
+    margin-left: 13px;
+}
+
+.leaders-title {
+    font-size: 76.8px;
+    margin-bottom: 50px;
+    
+}
+
+.green-text {
+    color: #7FA632;
+}
+
+.white-text {
+    color: white;
+}
+
+.leaders-container {
+    display: flex;
+    justify-content: center;
+    gap: 155px;
+    margin-left: 10px;
+}
+
+.leader {
+    text-align: center;
+}
+
+.leader-photo {
+    width: 320px;
+    height: auto;
+    border-radius: 13px;
+    
+}
+
+.leader-name {
+    color: white;
+    font-size: 32px;
+    margin-top: 10px;
+}
+
+.leader-position {
+    color: #7FA632;
+    font-size: 28px;
+    margin-top: -22px;
+
+}

@@ -1,4 +1,4 @@
-.scroll-button {
+.secondary-button {
     background-color: transparent; 
     color: white; 
     border: none; 
@@ -11,9 +11,21 @@
     text-decoration: none;
 }
 
-.scroll-button:hover {
+.secondary-button:hover {
     background-color: transparent;
     color: #7FA632;
     text-decoration: none;
     
+}
+
+.header-button {
+    font-size: 28px;
+    margin-top: -5px;
+    margin-right: 50px;
+    margin-left: 47px;
+}
+
+.footer-button {
+    font-size: 22.5px; 
+    margin-bottom: 27px;
 }

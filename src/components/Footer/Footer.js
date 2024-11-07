@@ -1,11 +1,13 @@
 import React from 'react';
-import { ReactComponent as Logo } from '../assets/logo_TUSUR.svg';
-import LinkButton from '../components/UI-kit/LinkButton'; 
-import ScrollButton from '../components/UI-kit/ScrollButton'; 
 import './Footer.css';
-import { ReactComponent as Icon1 } from '../assets/icon_VK.svg'; 
-import { ReactComponent as Icon2 } from '../assets/icon_careerCenter.svg'; 
-import { ReactComponent as Icon3 } from '../assets/icon_SDO.svg'; 
+
+import IconButton from '../UI-kit/IconButton/IconButton'; 
+import SecondaryButton from '../UI-kit/SecondaryButton/SecondaryButton';
+
+import { ReactComponent as Logo } from '../assets/logo_TUSUR.svg';
+import { ReactComponent as Icon_VK } from '../assets/icon_VK.svg'; 
+import { ReactComponent as Icon_CC } from '../assets/icon_careerCenter.svg'; 
+import { ReactComponent as Icon_SDO } from '../assets/icon_SDO.svg'; 
 
 const Footer = () => {
     return (
@@ -17,27 +19,24 @@ const Footer = () => {
                 </a>
                 <div className="vertical-line"></div>
                 <div className="scroll-buttons-container">
-                    <ScrollButton text="О курсе" targetId="section1" />
-                    <ScrollButton text="Наши проекты" targetId="section2" />
-                    <ScrollButton text="Наставники" targetId="section3" />
+                    <SecondaryButton text="О курсе" targetId="section1"className="footer-button"/>
+                    <SecondaryButton text="Наши проекты" targetId="section2" className="footer-button"/>
+                    <SecondaryButton text="Наставники" targetId="leaders-section" className="footer-button"/>
                 </div>
-
                 <div className="vertical-line"></div>
-
-                {/* Контейнер для ссылок */}
                 <div className="link-buttons-container">
-                    <LinkButton 
-                        icon={Icon1} 
-                        text="Курс опд ТУСУР" 
+                    <IconButton 
+                        icon={Icon_VK} 
+                        text="Курс ОПД ТУСУР" 
                         link="https://vk.com/opd_tusur" 
                     />
-                    <LinkButton 
-                        icon={Icon2} 
+                    <IconButton 
+                        icon={Icon_CC} 
                         text="Центр карьеры ТУСУР" 
                         link="https://vk.com/centercareer_tusur" 
                     />
-                    <LinkButton 
-                        icon={Icon3} 
+                    <IconButton 
+                        icon={Icon_SDO} 
                         text="СДО ОПД" 
                         link="https://sdo.tusur.ru/course/view.php?id=17098" 
                     />
