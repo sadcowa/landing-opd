@@ -1,7 +1,7 @@
 //Header.js
 import React from 'react';
 import './Header.css';
-import LogoTUSUR from '../assets/logo_TUSUR.svg';
+import LogoTUSUR from '../../assets/logo_TUSUR.svg';
 import { FirstButton } from '../UI-kit/FirstButton/FirstButton'; 
 import SecondaryButton from '../UI-kit/SecondaryButton/SecondaryButton'; 
 

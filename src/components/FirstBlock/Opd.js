@@ -1,5 +1,5 @@
 import React from 'react';
-import { ReactComponent as ImageOPD } from '../assets/image_OPD.svg'; 
+import { ReactComponent as ImageOPD } from '../../assets/image_OPD.svg'; 
 import './Opd.css';
 
 

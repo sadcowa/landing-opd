@@ -1,7 +1,7 @@
 import React from 'react';
 import './Leaders.css';
-import Leader1 from '../assets/leader1.png';
-import Leader2 from '../assets/leader2.png';
+import Leader1 from '../../assets/leader1.png';
+import Leader2 from '../../assets/leader2.png';
 
 const Leaders = () => {
     return (

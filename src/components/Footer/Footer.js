@@ -4,10 +4,10 @@ import './Footer.css';
 import IconButton from '../UI-kit/IconButton/IconButton'; 
 import SecondaryButton from '../UI-kit/SecondaryButton/SecondaryButton';
 
-import { ReactComponent as Logo } from '../assets/logo_TUSUR.svg';
-import { ReactComponent as Icon_VK } from '../assets/icon_VK.svg'; 
-import { ReactComponent as Icon_CC } from '../assets/icon_careerCenter.svg'; 
-import { ReactComponent as Icon_SDO } from '../assets/icon_SDO.svg'; 
+import { ReactComponent as Logo } from '../../assets/logo_TUSUR.svg';
+import { ReactComponent as Icon_VK } from '../../assets/icon_VK.svg'; 
+import { ReactComponent as Icon_CC } from '../../assets/icon_careerCenter.svg'; 
+import { ReactComponent as Icon_SDO } from '../../assets/icon_SDO.svg'; 
 
 const Footer = () => {
     return (
