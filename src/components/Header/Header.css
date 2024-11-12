@@ -2,24 +2,23 @@
 .header {
     background-color:black;
     display: flex; 
-    align-items: center; 
+    align-items: center;
+    justify-content: center;
     background-color: #000000;
-    justify-content: flex-start;
     border-bottom: 2.5px solid #7FA632;
     height: 105px;
     width: 100%;
+    position:fixed;
 }
 
 .logo-container {
     margin-right: 20px; 
     margin-left: 37px;
     align-items: flex-start;
-
 }
 
 .navigation {
     display: flex; 
     gap: 50px; 
-  
 }
 

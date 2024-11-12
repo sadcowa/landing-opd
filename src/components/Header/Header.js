@@ -1,11 +1,15 @@
 //Header.js
 import React from 'react';
 import './Header.css';
-import LogoTUSUR from '../../assets/logo_TUSUR.svg';
+import { ReactComponent as LogoTUSUR} from '../../assets/logo_TUSUR.svg';
 import { FirstButton } from '../UI-kit/FirstButton/FirstButton'; 
 import SecondaryButton from '../UI-kit/SecondaryButton/SecondaryButton'; 
 
 const Header = () => {
+    const transferToFeedBack = () => {
+        alert("перенеслись")
+    }
+
     return (
         <header className="header">
             <div className="logo-container">
@@ -16,7 +20,7 @@ const Header = () => {
                 <SecondaryButton text="Наши проекты" targetId="section1" className="header-button"/>
                 <SecondaryButton text="Наставники"targetId="leaders-section" className="header-button" />
             </nav>
-            <FirstButton />
+            <FirstButton handlerClick={transferToFeedBack} text='Обратная связь' />
         </header>
     );
 };

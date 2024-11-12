@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    margin: 10px;
+    width: 100%; 
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+    flex-direction: row-reverse;
+}
+
+.text-info{
+    width: 300px
+}
