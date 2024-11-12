@@ -1,0 +1,33 @@
+/* opd.css */
+.opd {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    width: 100%; 
+    height: 707px;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    margin-top: 3px;
+
+}
+
+.text-container {
+    display: flex; 
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;
+    margin-right: 31px;
+}
+
+.text-white {
+    color: rgb(255, 255, 255);
+    font-size: 76.5px; 
+}
+
+.text-green {
+    color: #7FA632; 
+    font-size: 76.5px;
+}

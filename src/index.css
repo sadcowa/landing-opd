@@ -1,13 +1,26 @@
+:root {
+  --color-white: white; /* Переменная для белого цвета */
+  --color-green: #7FA632; /* Переменная для зеленого цвета */
+}
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  background-color: black;
+  font-family: 'Montserrat', sans-serif; /* Используем Montserrat */
+  font-weight: 600; /* Устанавливаем вес шрифта на Semi-Bold для всего текста */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Общие стили для текста */
+.text-white {
+  color: var(--color-white); /* Используем переменную для белого цвета */
+}
+
+.text-green {
+  color: var(--color-green); /* Используем переменную для зеленого цвета */
+}
+
+/* Применяем Semi-Bold ко всем параграфам */
+p {
+  font-weight: 600; /* Устанавливаем вес шрифта на Semi-Bold для всех параграфов */
 }

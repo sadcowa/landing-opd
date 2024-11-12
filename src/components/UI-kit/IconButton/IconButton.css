@@ -1,0 +1,25 @@
+.icon-button {
+    display: flex;
+    align-items: center; 
+    padding: 10px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    font-family: 'Montserrat', sans-serif; 
+    text-decoration: none; 
+    background-color: transparent; 
+    font-weight: 600;
+    margin-top:-7px;
+}
+
+.icon{
+    width: 29px;
+    height: 29px; 
+    margin-right: 26px;
+}
+
+.button-text {
+    font-size: 19.2px; 
+    line-height: 1.5;
+}
