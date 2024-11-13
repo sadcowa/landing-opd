@@ -3,10 +3,12 @@
     background-color:black;
     display: flex; 
     align-items: center; 
+    justify-content: center;
     background-color: #000000;
     border-bottom: 2.5px solid #7FA632;
-    height: 105px;
+    height: 88px;
     width: 100%;
+    position:fixed;
 }
 
 .logo-container {

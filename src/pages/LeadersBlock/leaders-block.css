@@ -2,6 +2,7 @@
     text-align: center; 
     margin: 123px 0px;
     margin-left: 13px;
+    height: 700px;
 }
 
 .leaders-title {
@@ -45,6 +46,6 @@
 .leader-position {
     color: #7FA632;
     font-size: 28px;
-    margin-top: -22px;
+    margin-top: 7px;
 
 }

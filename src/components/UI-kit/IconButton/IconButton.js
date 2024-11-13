@@ -1,5 +1,5 @@
 import React from 'react';
-import './IconButton.css'; 
+import './icon-button.css'; 
 
 //кнопки с иконкой и ссылкой
 

@@ -23,3 +23,10 @@
     font-size: 19.2px; 
     line-height: 1.5;
 }
+.icon-button:hover {
+    color: #7FA632;/* Цвет текста при наведении */
+}
+
+.icon-button:hover .icon {
+    color: #7FA632; /* Цвет иконки при наведении */
+}

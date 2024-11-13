@@ -1,11 +1,11 @@
 import React from 'react';
 import { ReactComponent as ImageOPD } from '../../assets/image_OPD.svg'; 
-import './Opd.css';
+import './title-block.css';
 
 
 const Opd = () => {
     return (
-        <div className="opd" id="opd-section">
+        <div className="title" id="title-section">
             <div className="content">
                 <div className="text-container">
                     <p>
