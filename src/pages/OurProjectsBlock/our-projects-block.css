@@ -1,0 +1,53 @@
+/* our-projects.css */
+.projects-section {
+    text-align: center; /* Центрирование всего содержимого секции */
+    margin: 50px 0; /* Отступы сверху и снизу */
+    height: 990px;
+}
+
+.projects-description{
+    color: white;
+    font-size: 19px;
+}
+
+.projects-title {
+    font-size: 77px; /* Увеличьте размер шрифта заголовка */
+    margin-bottom: 22px; /* Отступ снизу для отделения от описания */
+}
+
+.project-slider {
+    margin-top: 40px;
+    display: flex;
+    align-items: center; /* Центрирование по вертикали */
+    justify-content: center; /* Центрирование по горизонтали */
+    color: white;
+}
+
+.arrow {
+    background: none;
+    border: none;
+    cursor: pointer;
+    width: 50px; /* Ширина стрелочек */
+    height: 50px; /* Высота стрелочек */
+    margin: 0 120px; /* Отступы слева и справа от стрелочек */
+    display: flex; /* Используем flex для центрирования */
+    align-items: center;
+    margin-top: 90px;
+}
+
+.project-image {
+    width: 1020px; /* Уменьшите ширину изображения */
+    height: auto; /* Высота будет автоматически подстраиваться */
+    margin-top: 20px;
+}
+
+.project-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Центрирование содержимого карточки */
+}
+.project-card p {
+    color: white; /* Цвет текста в карточке проекта */
+    font-size: 25.5px; /* Размер шрифта для текста перед картинкой */
+    margin-top: 39px; /* Отступ сверху для текста описания проекта */
+}

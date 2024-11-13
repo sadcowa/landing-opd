@@ -1,19 +1,21 @@
 //app.js
 import React from 'react';
-import Header from './components/Header/Header';
-import Opd from './components/FirstBlock/Opd';
-import Footer from './components/Footer/Footer';
-import Leaders from './components/Leaders/Leaders';
+import Header from './Header/Header';
+import Opd from './pages/TitleBlock/TitleBlock';
+import Footer from './Footer/Footer';
+import Leaders from './pages/LeadersBlock/LeadersBlock';
+import './App.css';
+import OurProjects from './pages/OurProjectsBlock/OurProjectsBlock';
 
 
 function App() {
     return (
-        <div style={{ padding: '0px' }}>
+        <div>
         <Header/>
         <Opd/>
+        <OurProjects/>
         <Leaders/>
         <Footer />
-        <h1 color='white'>KKKKKKKKK</h1>
     </div>
     );
 }

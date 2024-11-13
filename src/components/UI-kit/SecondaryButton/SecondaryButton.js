@@ -1,13 +1,19 @@
 import React from 'react';
-import './SecondaryButton.css'; 
+import './secondary-button.css'; 
 
-//кнопки о нас\наставники\наши проекты в хедере и футере
-
+//кнопки "О нас", "Наставники", "Наши проекты" в хедере и футере
 const SecondaryButton = ({ text, targetId, className }) => {
     const handleScroll = () => {
         const element = document.getElementById(targetId);
         if (element) {
-            element.scrollIntoView({ behavior: 'smooth' });
+            const headerOffset = 100;
+            const elementPosition = element.getBoundingClientRect().top;
+            const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+
+            window.scrollTo({
+                top: offsetPosition,
+                behavior: 'smooth' 
+            });
         }
     };
 

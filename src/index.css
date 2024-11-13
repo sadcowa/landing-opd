@@ -1,26 +1,24 @@
 :root {
-  --color-white: white; /* Переменная для белого цвета */
-  --color-green: #7FA632; /* Переменная для зеленого цвета */
+  --color-white: white;
+  --color-green: #7FA632;
 }
 
 body {
   background-color: black;
-  font-family: 'Montserrat', sans-serif; /* Используем Montserrat */
-  font-weight: 600; /* Устанавливаем вес шрифта на Semi-Bold для всего текста */
+  font-family: 'Montserrat', sans-serif; 
+  font-weight: 600;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* Общие стили для текста */
 .text-white {
-  color: var(--color-white); /* Используем переменную для белого цвета */
+  color: var(--color-white);
 }
 
 .text-green {
-  color: var(--color-green); /* Используем переменную для зеленого цвета */
+  color: var(--color-green);
 }
 
-/* Применяем Semi-Bold ко всем параграфам */
 p {
-  font-weight: 600; /* Устанавливаем вес шрифта на Semi-Bold для всех параграфов */
+  font-weight: 600;
 }

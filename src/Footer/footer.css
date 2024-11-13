@@ -3,7 +3,10 @@
     background-color: #000000; 
     color: white;
     height: 145px; 
+    justify-content: center;
     padding: 0;
+    align-items: center; 
+
 }
 
 .footer-content {
@@ -20,10 +23,12 @@
 
 .vertical-line {
     width: 2.5px; 
-    height: 140px; 
+    height: 127px; 
     background-color: #7FA632; 
     margin-left: 20px;
     margin-right: 31px;
+    align-items: center;
+    justify-content: center;
 }
 
 .scroll-buttons-container {
@@ -51,6 +56,6 @@
 .footer-line {
     width: 100%;
     border: none; 
-    height: 2.5px;
+    height: 2px;
     background-color: #7FA632;
 }

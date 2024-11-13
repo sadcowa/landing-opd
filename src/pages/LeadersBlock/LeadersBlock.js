@@ -1,11 +1,11 @@
 import React from 'react';
-import './Leaders.css';
+import './leaders-block.css';
 import Leader1 from '../../assets/leader1.png';
 import Leader2 from '../../assets/leader2.png';
 
 const Leaders = () => {
     return (
-        <section className="course-leaders">
+        <div className="course-leaders">
         <div className="leaders-title"  id="leaders-section">
             <span className="green-text">Руководители </span>
             <span className="white-text">курса</span>
@@ -22,7 +22,7 @@ const Leaders = () => {
                 <p className="leader-position">Специалист по<br />учебно-методической<br />работе</p>
             </div>
         </div>
-    </section>
+    </div>
     );
 };
 

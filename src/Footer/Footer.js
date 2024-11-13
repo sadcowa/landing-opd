@@ -1,29 +1,29 @@
 import React from 'react';
-import './Footer.css';
+import './footer.css';
 
-import IconButton from '../UI-kit/IconButton/IconButton'; 
-import SecondaryButton from '../UI-kit/SecondaryButton/SecondaryButton';
+import IconButton from '../components/UI-kit/IconButton/IconButton'; 
+import SecondaryButton from '../components/UI-kit/SecondaryButton/SecondaryButton';
 
-import { ReactComponent as Logo } from '../../assets/logo_TUSUR.svg';
-import { ReactComponent as Icon_VK } from '../../assets/icon_VK.svg'; 
-import { ReactComponent as Icon_CC } from '../../assets/icon_careerCenter.svg'; 
-import { ReactComponent as Icon_SDO } from '../../assets/icon_SDO.svg'; 
+import { ReactComponent as Logo } from '../assets/logo_TUSUR.svg';
+import { ReactComponent as Icon_VK } from '../assets/icon_VK.svg'; 
+import { ReactComponent as Icon_CC } from '../assets/icon_careerCenter.svg'; 
+import { ReactComponent as Icon_SDO } from '../assets/icon_SDO.svg'; 
 
 const Footer = () => {
     return (
-        <footer className="footer">
-            <hr className="footer-line" /> 
+        <div className="footer">
+            <div className="footer-line" /> 
             <div className="footer-content">
                 <a href="#top" className="logo">
                     <Logo width={230} height={90}/>
                 </a>
-                <div className="vertical-line"></div>
+                <div className="vertical-line"/>
                 <div className="scroll-buttons-container">
                     <SecondaryButton text="О курсе" targetId="section1"className="footer-button"/>
-                    <SecondaryButton text="Наши проекты" targetId="section2" className="footer-button"/>
+                    <SecondaryButton text="Наши проекты" targetId="projects" className="footer-button"/>
                     <SecondaryButton text="Наставники" targetId="leaders-section" className="footer-button"/>
                 </div>
-                <div className="vertical-line"></div>
+                <div className="vertical-line"/>
                 <div className="link-buttons-container">
                     <IconButton 
                         icon={Icon_VK} 
@@ -42,7 +42,7 @@ const Footer = () => {
                     />
                 </div>
             </div>
-        </footer>
+        </div>
     );
 };
 
