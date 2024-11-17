@@ -1,22 +1,10 @@
 import React from 'react';
 import './primary-button.css'; 
 
-//кнопки обратная связь и отправить
-
-export const FirstButton = ({handlerClick, text}) => {
+export const PrimaryButton = ({handlerClick, text}) => {
     return (
-        <button onClick={handlerClick} className="first-button">
+        <button onClick={handlerClick} className="primary-button">
             {text}
         </button>
-    );
-};
-
-export const Input = ({handlerChange, placeholder}) => {
-    return (
-        <input 
-            placeholder={placeholder} 
-            onChange={(e) => handlerChange(e.target.value)} 
-            className="first-button" 
-        />
     );
 };
