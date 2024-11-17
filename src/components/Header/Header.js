@@ -1,9 +1,9 @@
 //Header.js
 import React from 'react';
 import './header.css';
-import {ReactComponent as LogoTUSUR} from '../assets/logo_TUSUR.svg';
-import { FirstButton } from '../components/UI-kit/PrimaryButton/PrimaryButton'; 
-import SecondaryButton from '../components/UI-kit/SecondaryButton/SecondaryButton'; 
+import {ReactComponent as LogoTUSUR} from '../../assets/logo_TUSUR.svg';
+import {PrimaryButton } from '../UI-kit/PrimaryButton/PrimaryButton'; 
+import SecondaryButton from '../UI-kit/SecondaryButton/SecondaryButton'; 
 
 const Header = () => {
     const transferToFeedBack = () => {
@@ -20,7 +20,7 @@ const Header = () => {
                 <SecondaryButton text="Наши проекты" targetId="projects" className="header-button"/>
                 <SecondaryButton text="Наставники"targetId="leaders-section" className="header-button" />
             </div>
-            <FirstButton handlerClick={transferToFeedBack} text='Обратная связь' />
+            <PrimaryButton handlerClick={transferToFeedBack} text='Обратная связь' />
         </div>
     );
 };
