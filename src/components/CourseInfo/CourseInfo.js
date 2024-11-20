@@ -8,7 +8,7 @@ import SecondLineImage from '../../assets/line2.png';
 
 const CourseInfo = () => {
   return (
-    <div className="course-info">
+    <div id="section1" className="course-info">
       <h1 className="course-info-title green-text">О курсе</h1>
       <div className="course-section">
         <div className="course-text" style={{ width: '472px', height: 'auto' }}>

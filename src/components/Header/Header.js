@@ -13,6 +13,12 @@ const Header = () => {
             feedbackSection.scrollIntoView({ behavior: 'smooth' });
         }
     }
+    const transferToSection = (sectionId) => {
+        const section = document.getElementById(sectionId);
+        if (section) {
+            section.scrollIntoView({ behavior: 'smooth' });
+        }
+    }
 
     return (
         <div className="header">
