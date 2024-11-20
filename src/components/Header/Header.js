@@ -5,9 +5,13 @@ import {ReactComponent as LogoTUSUR} from '../../assets/logo_TUSUR.svg';
 import {PrimaryButton } from '../UI-kit/PrimaryButton/PrimaryButton'; 
 import SecondaryButton from '../UI-kit/SecondaryButton/SecondaryButton'; 
 
+
 const Header = () => {
     const transferToFeedBack = () => {
-        alert("перенеслись")
+        const feedbackSection = document.getElementById('feedback-section');
+        if (feedbackSection) {
+            feedbackSection.scrollIntoView({ behavior: 'smooth' });
+        }
     }
 
     return (
