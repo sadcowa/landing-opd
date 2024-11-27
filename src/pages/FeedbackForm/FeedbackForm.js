@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import './FeedbackForm.css';
-import Input from '../UI-kit/Input/Input';
-import Textarea from '../UI-kit/Textarea/Textarea';
-import SubmitButton from '../UI-kit/SubmitButton/SubmitButton';
+import Input from '../../components/UI-kit/Input/Input';
+import Textarea from '../../components/UI-kit/Textarea/Textarea';
+import SubmitButton from '../../components/UI-kit/SubmitButton/SubmitButton';
 
 const FeedbackForm = () => {
   const [fio, setFio] = useState("Иванов Иван Иванович");
