@@ -8,6 +8,9 @@ import { ReactComponent as Logo } from '../../assets/logo_TUSUR.svg';
 import { ReactComponent as Icon_VK } from '../../assets/icon_VK.svg'; 
 import { ReactComponent as Icon_CC } from '../../assets/icon_careerCenter.svg'; 
 import { ReactComponent as Icon_SDO } from '../../assets/icon_SDO.svg'; 
+import { ReactComponent as Icon_VK_Green } from '../../assets/icon_VK_hover.svg'; 
+import { ReactComponent as Icon_CC_Green } from '../../assets/icon_career_hover.svg'; 
+import { ReactComponent as Icon_SDO_Green } from '../../assets/icon_SDO_hover.svg'; 
 
 const Footer = () => {
     return (
@@ -19,7 +22,7 @@ const Footer = () => {
                 </a>
                 <div className="vertical-line"/>
                 <div className="scroll-buttons-container">
-                    <SecondaryButton text="О курсе" targetId="section1"className="footer-button"/>
+                    <SecondaryButton text="О курсе" targetId="section1" className="footer-button"/>
                     <SecondaryButton text="Наши проекты" targetId="projects" className="footer-button"/>
                     <SecondaryButton text="Наставники" targetId="leaders-section" className="footer-button"/>
                 </div>
@@ -27,16 +30,19 @@ const Footer = () => {
                 <div className="link-buttons-container">
                     <IconButton 
                         icon={Icon_VK} 
+                        iconHover={Icon_VK_Green} // Добавляем иконку для наведения
                         text="Курс ОПД ТУСУР" 
                         link="https://vk.com/opd_tusur" 
                     />
                     <IconButton 
                         icon={Icon_CC} 
+                        iconHover={Icon_CC_Green} // Добавляем иконку для наведения
                         text="Центр карьеры ТУСУР" 
                         link="https://vk.com/centercareer_tusur" 
                     />
                     <IconButton 
                         icon={Icon_SDO} 
+                        iconHover={Icon_SDO_Green} // Добавляем иконку для наведения
                         text="СДО ОПД" 
                         link="https://sdo.tusur.ru/course/view.php?id=17098" 
                     />

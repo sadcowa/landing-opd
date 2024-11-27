@@ -5,7 +5,6 @@
     color: white;
     border: none;
     cursor: pointer;
-    transition: all 0.5s ease;
     font-family: 'Montserrat', sans-serif; 
     text-decoration: none; 
     background-color: transparent; 
@@ -29,4 +28,5 @@
 
 .icon-button:hover .icon {
     color: #7FA632; /* Цвет иконки при наведении */
+
 }

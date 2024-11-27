@@ -3,7 +3,7 @@
     color: white; 
     border: none; 
     cursor: pointer;
-    transition: all 0.5s ease; 
+    transition: all 0.25s ease; 
     font-family: 'Montserrat', sans-serif;
     font-size: 23px;
     margin-top: -15px;

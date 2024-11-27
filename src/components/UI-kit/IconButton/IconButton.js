@@ -1,12 +1,19 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './icon-button.css'; 
 
-//кнопки с иконкой и ссылкой
+const IconButton = ({ icon: Icon, iconHover: IconHover, text, link }) => {
+    const [isHovered, setIsHovered] = useState(false);
 
-const IconButton = ({ icon: Icon, text, link }) => {
     return (
-        <a href={link} target="_blank" rel="noopener noreferrer" className="icon-button">
-            <Icon className="icon" />
+        <a 
+            href={link} 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="icon-button"
+            onMouseEnter={() => setIsHovered(true)}
+            onMouseLeave={() => setIsHovered(false)}
+        >
+            {isHovered ? <IconHover className="icon" /> : <Icon className="icon" />}
             <span className="button-text">{text}</span>
         </a>
     );
