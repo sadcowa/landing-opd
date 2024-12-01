@@ -30,3 +30,16 @@
     color: #7FA632; 
     font-size: 76.5px;
 }
+.effect-container {
+    position: relative;
+}
+
+
+.effect-gri {
+    position: absolute;
+    bottom: -520px;
+    left: 0;
+    width: 650px;
+    height: auto;
+    z-index: -1;
+}

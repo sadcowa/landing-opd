@@ -1,7 +1,7 @@
 /* our-projects.css */
 .projects-section {
-    text-align: center; /* Центрирование всего содержимого секции */
-    margin: 50px 0; /* Отступы сверху и снизу */
+    text-align: center;
+    margin: 50px 0;
     height: 990px;
 }
 
@@ -11,15 +11,15 @@
 }
 
 .projects-title {
-    font-size: 77px; /* Увеличьте размер шрифта заголовка */
-    margin-bottom: 22px; /* Отступ снизу для отделения от описания */
+    font-size: 77px;
+    margin-bottom: 22px;
 }
 
 .project-slider {
     margin-top: 40px;
     display: flex;
-    align-items: center; /* Центрирование по вертикали */
-    justify-content: center; /* Центрирование по горизонтали */
+    align-items: center;
+    justify-content: center;
     color: white;
 }
 
@@ -27,27 +27,48 @@
     background: none;
     border: none;
     cursor: pointer;
-    width: 50px; /* Ширина стрелочек */
-    height: 50px; /* Высота стрелочек */
-    margin: 0 120px; /* Отступы слева и справа от стрелочек */
-    display: flex; /* Используем flex для центрирования */
+    width: 50px;
+    height: 50px;
+    margin: 0 120px; 
+    display: flex; 
     align-items: center;
     margin-top: 90px;
 }
 
 .project-image {
-    width: 1020px; /* Уменьшите ширину изображения */
-    height: auto; /* Высота будет автоматически подстраиваться */
+    width: 1020px; 
+    height: auto;
     margin-top: 20px;
 }
 
 .project-card {
     display: flex;
     flex-direction: column;
-    align-items: center; /* Центрирование содержимого карточки */
+    align-items: center; 
 }
 .project-card p {
-    color: white; /* Цвет текста в карточке проекта */
-    font-size: 25.5px; /* Размер шрифта для текста перед картинкой */
-    margin-top: 39px; /* Отступ сверху для текста описания проекта */
+    color: white; 
+    font-size: 25.5px; 
+    margin-top: 39px; 
+}
+.effect-container {
+    position: relative;
+}
+
+
+.effect-grid-left{
+    position: absolute;
+    bottom: -3420px;
+    left: 0;
+    width: 650px;
+    height: auto;
+    z-index: -1;
+}
+.effect-grid-right{
+    position: absolute;
+    bottom: -2300px;
+    right: 0;
+    width: 650px;
+    height: auto;
+    z-index: -1;
 }

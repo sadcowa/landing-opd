@@ -5,28 +5,31 @@
     color: white;
     border: none;
     cursor: pointer;
-    transition: all 0.5s ease;
     font-family: 'Montserrat', sans-serif; 
     text-decoration: none; 
     background-color: transparent; 
     font-weight: 600;
-    margin-top:-7px;
+    margin-top: -7px;
+    transition: color 0.3s ease; /* Плавное изменение цвета текста */
 }
 
-.icon{
+.icon {
     width: 29px;
     height: 29px; 
-    margin-right: 26px;
+    margin-right: 15px;
+    transition: transform 0.3s ease; /* Плавное изменение иконки */
 }
 
 .button-text {
     font-size: 19.2px; 
     line-height: 1.5;
 }
+
 .icon-button:hover {
-    color: #7FA632;/* Цвет текста при наведении */
+    color: #7FA632; /* Цвет текста при наведении */
+    transition: all 0.3s ease; 
 }
 
 .icon-button:hover .icon {
-    color: #7FA632; /* Цвет иконки при наведении */
+    transform: scale(1.0); /* Увеличение иконки при наведении */
 }

@@ -6,6 +6,8 @@ import ArrowRight from '../../assets/arrow_right.svg';
 import Image1 from '../../assets/project1.png';
 import Image2 from '../../assets/project2.png';
 import Image3 from '../../assets/project3.png'; 
+import EffectGridLeft from '../../assets/effect_left_grid.svg';
+import EffectGridRight from '../../assets/effect_right_grid.svg';
 
 const projectsData = [
     {
@@ -63,6 +65,8 @@ const OurProjects = () => {
                     <img src={ArrowRight} alt="Next" />
                 </button>
             </div>
+            <img src={EffectGridLeft} className="effect-grid-left" alt="Эффект сетки" />
+            <img src={EffectGridRight} className="effect-grid-right" alt="Эффект сетки" />
         </div>
     );
 };

@@ -9,7 +9,7 @@ import SecondLineImage from '../../assets/line2.png';
 const CourseInfo = () => {
   return (
     <div id="section1" className="course-info">
-      <h1 className="course-info-title green-text">О курсе</h1>
+      <h1 className="course-info-title text-green">О курсе</h1>
       <div className="course-section">
         <div className="course-text" style={{ width: '472px', height: 'auto' }}>
           <p>
@@ -18,13 +18,15 @@ const CourseInfo = () => {
               содержит основную информацию в области проектной деятельности, которая сможет послужить базой для реализации собственного проекта.
             </span>
           </p>
+          <br />
           <p>
             <span className="green-text course-title">Цель: </span>
             <span className="course-white-text">
               приобретение обучающимися компетенций в области проектной деятельности и реализации проекта.
             </span>
           </p>
-          <h2 className="green-text course-title">Задачи</h2>
+          <br />
+          <h2 className="green-text course-title">Задачи:</h2>
           <ul>
             <li className="course-white-text">развитие практико-ориентированного образования обучающихся;</li>
             <li className="course-white-text">развитие необходимых компетенций для реализации проектной деятельности;</li>
@@ -38,14 +40,22 @@ const CourseInfo = () => {
       </div>
 
       <div className="course-section">
-        <img src={CourseImage2} alt="Course 2" className="course-image" style={{ width: '495px', height: 'auto' }} />
-        <div className="course-text" style={{ width: '254px', height: 'auto' }}>
+        <div style={{ marginRight: '300px' }}>
+          <img 
+              src={CourseImage2} 
+              alt="Course 2" 
+              className="course-image" 
+              style={{ width: '495px', height: 'auto' }} 
+          />
+        </div>
+        <div className="course-text-2" style={{ width: '200px', height: 'auto' }}>
           <h2 className="green-text opd-title">ОПД-1</h2>
-          <p className="course-white-text">
+          <p className="course-white-text ">
             В весеннем семестре Вам предстоит изучить основы теории проектной деятельности, а затем применить их на практике, разработав план для будущего проекта. Для этого Вам будет необходимо работать в команде, обсуждая аспекты проекта, изученные в теории, а затем защитить Ваш проект.
           </p>
         </div>
       </div>
+
       <div className="second-line-image-container">
         <img src={SecondLineImage} alt="Second Line" className="second-line-image" />
       </div>
@@ -53,13 +63,21 @@ const CourseInfo = () => {
       <div className="course-section">
         <div className="course-text" style={{ width: '341px', height: 'auto' }}>
           <h2 className="green-text opd-title">ОПД-2</h2>
-          <p className="course-white-text">
+          <p className="course-white-text" style={{ marginRight: '0px' }}>
             В осеннем семестре Вы будете работать над реальными проектами преподавателей университета и предприятий-партнеров. Вам необходимо будет выбрать и записаться на один из предложенных проектов и, работая в команде, создать совершенно новый инновационный продукт с нуля. В заключение курса, нужно будет представить созданный Вами продукт на защите.
           </p>
         </div>
-        <img src={CourseImage3} alt="Course 3" className="course-image" style={{ width: '500px', height: 'auto' }} />
-      </div>
-    </div>
+        {/* Новый контейнер для изображения */}
+        <div style={{ marginLeft: '200px' }}>
+          <img 
+              src={CourseImage3} 
+              alt="Course 3" 
+              className="course-image" 
+              style={{ width: '500px', height: 'auto' }} 
+          />
+        </div> {/* Закрывающий тег для нового контейнера */}
+      </div> {/* Закрывающий тег для course-section */}
+    </div> // Закрывающий тег для course-info
   );
 };
 

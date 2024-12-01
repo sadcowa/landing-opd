@@ -29,7 +29,7 @@ const FeedbackForm = () => {
   return (
     <form id="feedback-section" className="feedback-form">
       <h1>
-        <span className="green-text">Обратная</span> <span className="white-text">связь</span>
+        <span className="text-green">Обратная</span> <span className="text-white">связь</span>
       </h1>
       <div className="form-group">
         <label htmlFor="fio">ФИО:</label>

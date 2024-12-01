@@ -1,6 +1,7 @@
 import React from 'react';
 import { ReactComponent as ImageOPD } from '../../assets/image_OPD.svg'; 
 import './title-block.css';
+import EffectGrid from '../../assets/effect_left_grid.svg';
 
 
 const Opd = () => {
@@ -16,6 +17,7 @@ const Opd = () => {
                 </div>
                 <ImageOPD width="400" height="400" />
             </div>
+            <img src={EffectGrid} className="effect-gri" alt="Эффект сетки" />
         </div>
     );
 };
