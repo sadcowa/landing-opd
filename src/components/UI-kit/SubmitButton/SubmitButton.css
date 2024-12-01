@@ -1,0 +1,18 @@
+.submit-button {
+    width: 208px; 
+    height: 60px; 
+    background-color: #7FA632; 
+    color:#fff;
+    border: none; 
+    border-radius: 15px; 
+    cursor: pointer; 
+    font-size: 24px; 
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    transition: all 0.3s ease; 
+}
+
+.submit-button:hover {
+    background-color: #fff;
+    color: #7FA632;
+}

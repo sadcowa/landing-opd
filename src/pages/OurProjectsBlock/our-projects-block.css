@@ -1,7 +1,7 @@
 .projects-section {
-    text-align: center; 
+    text-align: center;
     margin: 50px 0;
-    position: relative; 
+    height: 990px;
 }
 
 .projects-description {
@@ -17,7 +17,7 @@
 .project-slider {
     margin-top: 40px;
     display: flex;
-    align-items: center; 
+    align-items: center;
     justify-content: center;
     color: white;
 }
@@ -32,8 +32,18 @@
 }
 
 .project-image {
-    width: 1020px;
+    width: 50px;
+    height: 50px;
+    margin: 0 120px; 
+    display: flex; 
+    align-items: center;
+    margin-top: 90px;
+}
+
+.project-image {
+    width: 1020px; 
     height: auto;
+    margin-top: 20px;
 }
 
 .project-card {
@@ -42,15 +52,30 @@
     align-items: center; 
 }
 
+.project-card p {
+    color: white; 
+    font-size: 25.5px; 
+    margin-top: 39px; 
+}
+
 .effect-container {
     position: relative;
 }
 
 
-.effect-grid {
+
+.effect-grid-left{
     position: absolute;
-    bottom: -450px;
+    bottom: -3420px;
     left: 0;
+    width: 650px;
+    height: auto;
+    z-index: -1;
+}
+.effect-grid-right{
+    position: absolute;
+    bottom: -2300px;
+    right: 0;
     width: 650px;
     height: auto;
     z-index: -1;

@@ -3,7 +3,8 @@ import './our-projects-block.css';
 import ProjectCard from '../../components/ProjectCard/ProjectCard';
 import ArrowLeft from '../../assets/arrow_left.svg'; 
 import ArrowRight from '../../assets/arrow_right.svg';
-import EffectGrid from '../../assets/effect_left_grid.svg';
+import EffectGridLeft from '../../assets/effect_left_grid.svg';
+import EffectGridRight from '../../assets/effect_right_grid.svg';
 
 const projectsData = [
     {
@@ -58,8 +59,8 @@ const OurProjects = () => {
                     <img src={ArrowRight} alt="Next" />
                 </button>
             </div>
-            {/* Добавляем SVG эффект */}
-            <img src={EffectGrid} className="effect-grid" alt="Эффект сетки" />
+            <img src={EffectGridLeft} className="effect-grid-left" alt="Эффект сетки" />
+            <img src={EffectGridRight} className="effect-grid-right" alt="Эффект сетки" />
         </div>
     );
 };

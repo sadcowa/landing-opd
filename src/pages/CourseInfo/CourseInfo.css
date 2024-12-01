@@ -1,0 +1,127 @@
+.course-info {
+    margin-bottom: 40px;
+}
+
+.course-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1430px; 
+    height: 500px; 
+    margin: 0 auto 55px; 
+    position: relative; 
+}
+
+.course-section.right {
+    flex-direction: row-reverse;
+}
+
+.course-text {
+    flex: 10;
+    text-align: left;
+    width: 300px; 
+    height: auto; 
+    margin-left: 40px;
+}
+.course-text-2 {
+    flex: 10;
+    text-align: right; /* Выравнивание текста по правому краю */
+    width: 500px; 
+    height: auto; 
+    margin-left: 0; /* Уберите левый отступ, если он не нужен */
+    margin-right: 40px; /* Установите отступ справа */
+}
+
+.course-image {
+    object-fit: cover;
+    width: 500px; 
+    height: 500px; 
+    margin-left: 0px;
+    margin-right: 0px; 
+    
+}
+
+.green-text {
+    color: #7FA632;
+}
+
+.white-text {
+    color: white;
+}
+
+.course-white-text {
+    color: white;
+    font-size: 19px; 
+    margin-top: 15px;
+    width: 600px;
+}
+
+.course-title {
+    font-size: 22px; 
+    display: inline; 
+}
+
+.opd-title {
+    font-size: 56px; 
+    display: inline; 
+}
+
+.line-image-container, .second-line-image-container {
+    position: relative;
+    height: 40px; 
+    margin-top: 5px;
+    margin-bottom: 5px; 
+}
+
+.line-image {
+    position: absolute;
+    top: 10%; 
+    left: 52%; 
+    transform: translate(-55%, -70%); 
+    width: 775px;
+    height: 300px;
+    object-fit: contain; 
+}
+
+.second-line-image-container {
+    height: 70px; 
+}
+
+.second-line-image {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-58%, -40%); 
+    width: 720px;
+    height: 300px;
+    object-fit: contain; 
+}
+
+.course-info-title {
+    font-size: 96px; 
+    color: #7FA632; 
+    margin-bottom: 5px; 
+    text-align: center;
+}
+
+.course-text ul {
+    list-style-type: none; 
+    padding-left: 0; 
+}
+
+.course-text ul li {
+    position: relative; 
+    padding-left: 20px; 
+    margin-bottom: 10px; 
+}
+
+.course-text ul li::before {
+    content: ''; 
+    position: absolute; 
+    left: 0; 
+    top: 10px; 
+    width: 8px; 
+    height: 8px; 
+    background-color: #ffffff;
+    border-radius: 50%; 
+}
