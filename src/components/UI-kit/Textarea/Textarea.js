@@ -1,7 +1,7 @@
 import React from 'react';
-import './Textarea.css';
+import './text-area.css';
 
-const Textarea = ({ id, value, onChange, onFocus, onBlur, style, ...props }) => {
+const TextArea = ({ id, value, onChange, onFocus, onBlur, style, ...props }) => {
   return (
     <textarea
       id={id}
@@ -16,4 +16,4 @@ const Textarea = ({ id, value, onChange, onFocus, onBlur, style, ...props }) => 
   );
 };
 
-export default Textarea;
+export default TextArea;

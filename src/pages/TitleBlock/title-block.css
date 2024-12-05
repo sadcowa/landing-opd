@@ -9,8 +9,7 @@
 .content {
     display: flex;
     align-items: center;
-    margin-top: 3px;
-
+    margin-top: -110px;
 }
 
 .text-container {
@@ -21,23 +20,13 @@
     margin-right: 31px;
 }
 
-.text-white {
-    color: rgb(255, 255, 255);
-    font-size: 76.5px; 
-}
-
-.text-green {
-    color: #7FA632; 
-    font-size: 76.5px;
-}
 .effect-container {
     position: relative;
 }
 
-
-.effect-gri {
+.grid-effect {
     position: absolute;
-    bottom: -520px;
+    bottom: -530px;
     left: 0;
     width: 650px;
     height: auto;

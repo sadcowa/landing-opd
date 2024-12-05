@@ -1,7 +1,6 @@
 import React from 'react';
 import './secondary-button.css'; 
 
-//кнопки "О нас", "Наставники", "Наши проекты" в хедере и футере
 const SecondaryButton = ({ text, targetId, className }) => {
     const handleScroll = () => {
         const element = document.getElementById(targetId);

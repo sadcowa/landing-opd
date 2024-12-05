@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './FeedbackForm.css';
 import Input from '../../components/UI-kit/Input/Input';
-import Textarea from '../../components/UI-kit/Textarea/Textarea';
+import TextArea from '../../components/UI-kit/TextArea/TextArea';
 import SubmitButton from '../../components/UI-kit/SubmitButton/SubmitButton';
 
 const FeedbackForm = () => {
@@ -87,7 +87,7 @@ const FeedbackForm = () => {
 
         <div className="form-group">
           <label htmlFor="message">Сообщение:</label>
-          <Textarea 
+          <TextArea 
             id="message" 
             value={message} 
             style={{ color: messageColor, width: '650px', height: '190px' }} 

@@ -25,18 +25,18 @@
 }
 .course-text-2 {
     flex: 10;
-    text-align: right; /* Выравнивание текста по правому краю */
+    text-align: right;
     width: 500px; 
     height: auto; 
-    margin-left: 0; /* Уберите левый отступ, если он не нужен */
-    margin-right: 40px; /* Установите отступ справа */
+    margin-left: 0;
+    margin-right: 40px; 
 }
 
 .course-image {
     object-fit: cover;
     width: 500px; 
     height: 500px; 
-    margin-left: 0px;
+    margin-left: 50px;
     margin-right: 0px; 
     
 }
@@ -53,7 +53,7 @@
     color: white;
     font-size: 19px; 
     margin-top: 15px;
-    width: 600px;
+    width: 550px;
 }
 
 .course-title {

@@ -1,14 +1,14 @@
 import React from 'react';
 import './MentorsSection.css'; 
 
-import Manux from '../../assets/Manux.png';
-import Sibagro from '../../assets/Sibagro.png';
-import RKKEnergy from '../../assets/RKKEnergy.png';
-import Gazprom from '../../assets/Gazprom.png';
-import Mikran from '../../assets/Mikran.png';
-import SSKStar from '../../assets/SSKStar.png';
-import NPCPolus from '../../assets/NPCPolus.png';
-import IRZ from '../../assets/IRZ.png';
+import Manux from '../../assets/logo_manux.png';
+import Sibagro from '../../assets/logo_sibagro.png';
+import RKKEnergy from '../../assets/logo_RKKEnergy.png';
+import Gazprom from '../../assets/logo_gazprom.png';
+import Mikran from '../../assets/logo_mikran.png';
+import SSKStar from '../../assets/logo_SSKStar.png';
+import NPCPolus from '../../assets/logo_NPCPolus.png';
+import IRZ from '../../assets/logo_IRZ.png';
 import EffectGrid from '../../assets/effect_right_grid.svg';
 
 const MentorsSection = () => {

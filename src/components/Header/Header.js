@@ -11,10 +11,16 @@ const Header = () => {
             feedbackSection.scrollIntoView({ behavior: 'smooth' });
         }
     }
+    const scrollToTop = () => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    }
 
     return (
         <div className="header">
-            <div className="logo-container">
+            <div className="logo-container" onClick={scrollToTop}>
                 <LogoTUSUR width="210" height="94" /> 
             </div>
             <div className="secondary">

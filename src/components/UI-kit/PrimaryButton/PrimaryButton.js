@@ -5,7 +5,7 @@ export const PrimaryButton = ({ handlerClick, text }) => {
     const handleScroll = () => {
         const element = document.getElementById('feedback-section');
         if (element) {
-            const headerOffset = 50; // Отступ, чтобы не закрывать информацию шапкой
+            const headerOffset = 50;
             const elementPosition = element.getBoundingClientRect().top;
             const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
 

@@ -1,8 +1,8 @@
 import React from 'react';
 import './CourseInfo.css'; 
-import CourseImage1 from '../../assets/Aboutcourse.png'; 
-import CourseImage2 from '../../assets/Wireframe.png'; 
-import CourseImage3 from '../../assets/Business-Deal.png'; 
+import CourseImage1 from '../../assets/image_about_course.png'; 
+import CourseImage2 from '../../assets/image_OPD-1.png'; 
+import CourseImage3 from '../../assets/image_OPD-2.png'; 
 import LineImage from '../../assets/line1.png'; 
 import SecondLineImage from '../../assets/line2.png'; 
 
@@ -67,7 +67,6 @@ const CourseInfo = () => {
             В осеннем семестре Вы будете работать над реальными проектами преподавателей университета и предприятий-партнеров. Вам необходимо будет выбрать и записаться на один из предложенных проектов и, работая в команде, создать совершенно новый инновационный продукт с нуля. В заключение курса, нужно будет представить созданный Вами продукт на защите.
           </p>
         </div>
-        {/* Новый контейнер для изображения */}
         <div style={{ marginLeft: '200px' }}>
           <img 
               src={CourseImage3} 
@@ -75,9 +74,9 @@ const CourseInfo = () => {
               className="course-image" 
               style={{ width: '500px', height: 'auto' }} 
           />
-        </div> {/* Закрывающий тег для нового контейнера */}
-      </div> {/* Закрывающий тег для course-section */}
-    </div> // Закрывающий тег для course-info
+        </div>
+      </div>
+    </div>
   );
 };
 
