@@ -1,16 +1,16 @@
 import React from 'react';
 import './Textarea.css';
 
-const Textarea = ({ id, value, onChange, onFocus, onBlur, style, ...props }) => {
+const Textarea = ({ id, value, onChange, style, disabled, placeholder, ...props }) => {
   return (
     <textarea
       id={id}
-      className="textarea"
+      className={`textarea ${disabled ? 'textarea-disabled' : ''}`}
       value={value}
       onChange={onChange}
-      onFocus={onFocus}
-      onBlur={onBlur}
       style={style}
+      disabled={disabled}
+      placeholder={placeholder}
       {...props}
     />
   );

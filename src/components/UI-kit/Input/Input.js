@@ -1,16 +1,16 @@
 import React from 'react';
 import './Input.css';
 
-const Input = ({ id, value, onChange, onFocus, onBlur, style, ...props }) => {
+const Input = ({ id, value, onChange, style, disabled, placeholder, ...props }) => {
   return (
     <input
       id={id}
-      className="input"
+      className={`input ${disabled ? 'input-disabled' : ''}`}
       value={value}
       onChange={onChange}
-      onFocus={onFocus}
-      onBlur={onBlur}
       style={style}
+      disabled={disabled}
+      placeholder={placeholder}
       {...props}
     />
   );

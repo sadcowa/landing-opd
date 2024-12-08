@@ -15,3 +15,9 @@
     background-color: #fff;
     color: #7FA632;
 }
+
+.submit-button-disabled {
+    background-color: #a0a0a0;
+    color: #f0f0f0;
+    cursor: not-allowed;
+}
