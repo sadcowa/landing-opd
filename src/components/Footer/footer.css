@@ -6,7 +6,6 @@
     justify-content: center;
     padding: 0;
     align-items: center; 
-
 }
 
 .footer-content {
@@ -19,6 +18,7 @@
     margin-right: 8px;
     margin-left: 22px;
     margin-top: 10px;
+    cursor: pointer;
 }
 
 .vertical-line {
@@ -42,7 +42,6 @@
 
 .scroll-buttons-container > .scroll-button {
     margin-bottom: 50px; 
-    
 }
 
 .link-buttons-container {

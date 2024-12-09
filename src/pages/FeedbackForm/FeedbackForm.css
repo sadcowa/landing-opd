@@ -1,0 +1,105 @@
+h1 {
+    text-align: center; 
+    font-size: 96px; 
+    margin-bottom: 20px;
+    margin-top: 40px; 
+}
+
+.green-text {
+    color: #7FA632; 
+}
+
+.white-text {
+    color: white; 
+}
+
+.form-group {
+    margin-bottom: 20px;
+    width: 100%; 
+    max-width: 1340px; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+label {
+    display: block;
+    color: #7FA632;
+    margin-bottom: 5px;
+    font-size: 26px; 
+    text-align: left; 
+    padding-left: 10px; 
+}
+
+.form-flex {
+    display: flex; 
+    justify-content: center;
+    gap: 40px; 
+}
+
+.form-flex-column {
+    display: flex; 
+    flex-direction: column; 
+    gap: 40px; 
+    align-items: center;
+}
+
+.form-group:last-child {
+    margin-bottom: 46px; 
+}
+
+.button-container {
+    display: flex; 
+    justify-content: center; 
+    margin-top: 17px; 
+    margin-bottom: 150px;
+}
+
+*, body {
+    margin: 0;
+    padding: 0;
+}
+
+.feedback-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+input, textarea {
+    width: 100%; 
+    padding: 10px; 
+    box-sizing: border-box; 
+    padding-left: 15px; 
+}
+
+.input-fio {
+    width: 1340px;
+    height: 50px;
+    margin-bottom: 40px;
+}
+
+.input-group, .input-email {
+    width: 650px;
+    height: 48px;
+}
+
+.textarea-message {
+    width: 650px;
+    height: 100px;
+}
+
+.message-text {
+    color: #a8a8a8;
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: -10px;
+}
+.message-text {
+    color: #a8a8a8;
+   
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.message-text.success {
+    color: #ffffff;
+}

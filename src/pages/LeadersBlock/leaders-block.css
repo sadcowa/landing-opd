@@ -8,7 +8,6 @@
 .leaders-title {
     font-size: 76.8px;
     margin-bottom: 50px;
-    
 }
 
 .green-text {
@@ -33,8 +32,7 @@
 .leader-photo {
     width: 320px;
     height: auto;
-    border-radius: 13px;
-    
+    border-radius: 13px;   
 }
 
 .leader-name {
@@ -47,5 +45,4 @@
     color: #7FA632;
     font-size: 28px;
     margin-top: 7px;
-
 }

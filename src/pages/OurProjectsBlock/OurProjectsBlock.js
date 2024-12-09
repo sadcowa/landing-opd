@@ -3,28 +3,24 @@ import './our-projects-block.css';
 import ProjectCard from '../../components/ProjectCard/ProjectCard';
 import ArrowLeft from '../../assets/arrow_left.svg'; 
 import ArrowRight from '../../assets/arrow_right.svg';
-import Image1 from '../../assets/project1.png';
-import Image2 from '../../assets/project2.png';
-import Image3 from '../../assets/project3.png'; 
+import EffectGridLeft from '../../assets/effect_left_grid.svg';
+import EffectGridRight from '../../assets/effect_right_grid.svg';
 
 const projectsData = [
     {
         id: 1,
-        title: "Проект 1",
         description: "MINUX - софт для майнинга криптовалюты",
-        image: Image1,
+        videoUrl: "https://vk.com/video_ext.php?oid=-228313913&id=456239017&hash=4eaea793ffd4ca08",
     },
     {
         id: 2,
-        title: "Проект 2",
         description: "ReMind - домашний тренажер когнитивных и речевых способностей",
-        image: Image2,
+        videoUrl: "https://vk.com/video_ext.php?oid=-228313913&id=456239018&hash=c892ef2d23d72255",
     },
     {
         id: 3,
-        title: "Проект 3",
         description: "Хьюстон - HR-бот для подбора персонала",
-        image: Image3,
+        videoUrl: "https://vk.com/video_ext.php?oid=-228313913&id=456239019&hash=be8e8ab9e72efaac",
     },
 ];
 
@@ -46,9 +42,9 @@ const OurProjects = () => {
                 <span className="green-text">проекты</span>
             </p>
             <p className="projects-description">
-            В течение курса ОПД студенты воплощают свои инновационные идеи в реальность. Есть и проекты, которые<br/>
-            становятся успешными. В этом разделе представлены несколько вдохновляющих примеров проектов,<br/>
-            которые помогут вам понять, как реализовать свои идеи и превратить их в успешные проекты.<br/>
+                В течение курса ОПД студенты воплощают свои инновационные идеи в реальность. Есть и проекты, которые<br/>
+                становятся успешными. В этом разделе представлены несколько вдохновляющих примеров проектов,<br/>
+                которые помогут вам понять, как реализовать свои идеи и превратить их в успешные проекты.<br/>
             </p>
             <div className="project-slider">
                 <button className="arrow" onClick={prevProject}>
@@ -57,12 +53,14 @@ const OurProjects = () => {
                 <ProjectCard 
                     title={projectsData[currentIndex].title} 
                     description={projectsData[currentIndex].description} 
-                    image={projectsData[currentIndex].image} 
+                    videoUrl={projectsData[currentIndex].videoUrl} 
                 />
                 <button className="arrow" onClick={nextProject}>
                     <img src={ArrowRight} alt="Next" />
                 </button>
             </div>
+            <img src={EffectGridLeft} className="effect-grid-left" alt="Эффект сетки" />
+            <img src={EffectGridRight} className="effect-grid-right" alt="Эффект сетки" />
         </div>
     );
 };

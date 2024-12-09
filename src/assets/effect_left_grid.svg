@@ -1,0 +1,27 @@
+<svg width="759" height="1018" viewBox="0 0 759 1018" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0_723_306" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="759" height="1018">
+<rect width="759" height="1018" fill="black"/>
+</mask>
+<g mask="url(#mask0_723_306)">
+<g filter="url(#filter0_f_723_306)">
+<circle cx="261" cy="494" r="350" fill="#B2B2B2" fill-opacity="0.2"/>
+</g>
+<line x1="8.74228e-08" y1="344" x2="657" y2="344" stroke="black" stroke-width="2"/>
+<line x1="8.74228e-08" y1="451" x2="680" y2="451" stroke="black" stroke-width="2"/>
+<line x1="240" y1="933" x2="240" y2="103" stroke="black" stroke-width="2"/>
+<line x1="120" y1="944" x2="120" y2="114" stroke="black" stroke-width="2"/>
+<line x1="362" y1="944" x2="362" y2="114" stroke="black" stroke-width="2"/>
+<line x1="497" y1="968" x2="497" y2="138" stroke="black" stroke-width="2"/>
+<line x1="-8.74228e-08" y1="786" x2="680" y2="786" stroke="black" stroke-width="2"/>
+<line x1="-8.74228e-08" y1="670" x2="671" y2="670" stroke="black" stroke-width="2"/>
+<line x1="8.74228e-08" y1="238" x2="680" y2="238" stroke="black" stroke-width="2"/>
+<line x1="8.74228e-08" y1="559" x2="680" y2="559" stroke="black" stroke-width="2"/>
+</g>
+<defs>
+<filter id="filter0_f_723_306" x="-389" y="-156" width="1300" height="1300" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="150" result="effect1_foregroundBlur_723_306"/>
+</filter>
+</defs>
+</svg>
